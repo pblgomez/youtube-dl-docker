@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:linux/arm/v7
 LABEL maintainer="Pablo Gómez <pblgomez@gmail.com>"
 
 RUN apk upgrade -U
