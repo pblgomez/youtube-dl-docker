@@ -9,7 +9,6 @@ RUN pip3 install --upgrade pip
 RUN pip3 install youtube-dl
 
 COPY ./youtube-dl.conf /etc/youtube-dl.conf
-COPY ./channels /app/channels
 
 WORKDIR /media
 
