@@ -1,4 +1,4 @@
-FROM armv7/alpine:latest
+FROM arm32v7/alpine:latest
 LABEL maintainer="Pablo Gómez <pblgomez@gmail.com>"
 
 RUN apk upgrade -U
