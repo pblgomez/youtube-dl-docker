@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 FROM arm32v7/alpine
+=======
+FROM arm32v7/alpine:latest
+>>>>>>> becfe743e87fb8530adf832a63cebfc76d7d3aaf
 LABEL maintainer="Pablo Gómez <pblgomez@gmail.com>"
 
 RUN apk upgrade -U
